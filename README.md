@@ -1,7 +1,7 @@
 # Meme Generator
 
 ## Project Description
-First React lab project. Stay tuned!
+This is my first React project. In this lab, I built a webpack from scratch and created a WYSIWYG editor that allows user to create a meme image with text.
 
 ## Developer
 Requires Node v10 or later.
@@ -11,14 +11,17 @@ Requires Node v10 or later.
 * Download all the files with `npm i`,
 * To test, run `npm test`. 
 
-### How to use API
-* Connect to server with `npm run start`.
-* Enter `http://localhost:3000` in your browser.
-
-More to come...
+### How to use features
+* Connect to server with `npm start`.
+* Customize your meme by:
+    * Editing the header and footer inputs,
+    * Pick your font color and size,
+    * Adding your own image via pasting a link in the text box or choosing a local file,
+    - Known bug: local images will save better than certain links (CORS issue)
+* Click `Save Meme!`.
 
 ## Contributor
-[Mariah Adams](https://github.com/MariahAdams)
+This project was created by [Mariah Adams](https://github.com/MariahAdams) during the Summer 2018 Full-Stack Javascript Career Track program at [Alchemy Code Lab](https://www.alchemycodelab.com).
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
